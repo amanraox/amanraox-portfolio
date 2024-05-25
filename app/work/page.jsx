@@ -147,7 +147,7 @@ const projects = [
     num: "14",
     category: " Convinience Tool ",
     title: "share bits wirelessly",
-    description: "Imagine: You want to share a file with a friend nearby. You want to share from a source that does not have internet access - you just want to beam the file directly to your friend. This system lets you embed your file into a QR code that loads as an actual file download on your friend's device. Try it out here if you're feeling brave! The image that is downloaded by scanning this QR code is not hosted on any server, it only lives inside the QR code.",
+    description: "This system lets you embed your file into a QR code that loads as an actual file download on your friend's device. Try it out here if you're feeling brave! The image that is downloaded by scanning this QR code is not hosted on any server, it only lives inside the QR code.",
     stack: [{name:"Python"},{name:"HTML"},{name:"CSS"},{name:"JavaScript"}],
     image:"/assets/work/thumb14.png",
     live:"",
