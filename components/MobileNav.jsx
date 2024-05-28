@@ -12,7 +12,7 @@ const links =[
     path: '/',
   },
   {
-    name:'services',
+    name:'Competitive Programming',
     path: '/services',
   },
   {
