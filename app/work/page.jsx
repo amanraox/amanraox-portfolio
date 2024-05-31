@@ -78,7 +78,7 @@ const projects = [
     category: "Scripts",
     title: "Bash Scripts",
     description: "Created various bash scripts to automate daily tasks and make your life easier",
-    stack: [{name:"Python"},{name:"LangChain"},{name:"StreamLit"}],
+    stack: [{name:"Python"},{name:"Bash"}],
     image:"/assets/work/thumb7.png",
     live:"",
     github:"https://github.com/amanraox/Scripts",
