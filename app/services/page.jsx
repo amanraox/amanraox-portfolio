@@ -37,7 +37,7 @@ const Services = () => {
           >
             <p align="middle">
    <a href="https://leetcode.com/u/raoxaman/" target="_blank" rel="noopener noreferrer">
-<img height="315em" src="https://leetcard.jacoblin.cool/raoxaman?theme=dark&font=Duru%20Sans&ext=contest&border=0&radius=13" /></a>
+<img height="315em" src="https://leetcard.jacoblin.cool/raoxaman?font=Ubuntu&radius=13&ext=contest&sheets=https://gist.githubusercontent.com/amanraox/cf6cdd10f40353086bcb2de6694a4ce2/raw/786c10c0174e05e10c866f42ba0d47acf391b42a/leetcode_stats_card.css" /></a>
 	   </p>
           {services.map((service,index)=>{
             return (
