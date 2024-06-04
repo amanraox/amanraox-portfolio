@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className="h1 mb-6">
             Hello I'm<br/><span className="text-accent">Aman Umrao</span>
           </h1>
-          <p className="max-w-[500px] mb-9 text-white/80  ">A self-taught web developer and hobbyist Competitive programmer. I love spending my free time in solving problems on codeforces or working on my personal projects. I'm linux enthusiast and also interested in open-source softwares.</p>
+          <p className="max-w-[500px] mb-9 text-white/80  ">Sometimes I code</br>Occasionally I debug</br>Every so often I tinker</br>Always I Learn</br>Consistently I innovate</br>Here and now I have fun</p>
           {/* btn and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
