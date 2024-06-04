@@ -6,7 +6,7 @@ import {SiTailwindcss, SiNextdotjs,SiCplusplus, SiGooglecloud, SiC} from "react-
 
 const about={
   title: "About me",
-  description: "A self-taught web developer and hobbyist competitive programmer. I love spending my free time on solving problems on codeforces or working on my personal projects. I'm linux enthusiast and also interested in open-source softwares.",
+  description: "I'm self-taught web developer and hobbyist competitive programmer. I love spending my free time on solving problems on codeforces or working on my personal projects. I'm linux enthusiast and also interested in open-source softwares.",
   info: [
     {
       fieldName: "Name",
