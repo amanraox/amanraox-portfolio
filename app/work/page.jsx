@@ -157,7 +157,7 @@ const projects = [
     num: "15",
     category: "Classic Strategy Game",
     title: "Chezz",
-    description: "basic chess game inn your terminal.",
+    description: "basic chess game in your terminal.",
     stack: [{name:"C++"}],
     image:"/assets/work/thumb15.png",
     live:"",
