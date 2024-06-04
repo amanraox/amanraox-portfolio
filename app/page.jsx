@@ -17,12 +17,12 @@ const Home = () => {
           <h1 className="h1 mb-6">
             Hello I'm<br/><span className="text-accent">Aman Umrao</span>
           </h1>
-          <p className="max-w-[500px] mb-9 text-white/80  ">Sometimes I code
-          Occasionally I debug
-          Every so often I tinker
-          Always I Learn
-          Consistently I innovate
-          Here and now I have fun</p> 
+          <p className="max-w-[500px] mb-9 text-white/80  ">Sometimes I Code<br></br>
+          Occasionally I Debug<br></br>
+          Every so often I Tinker<br></br>
+          Always I Learn<br></br>
+          Consistently I Innovate<br></br>
+          Here and Now I have Fun</p> 
           {/* btn and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
