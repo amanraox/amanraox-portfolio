@@ -108,7 +108,7 @@ const projects = [
     category: "FullStack",
     title: "Terminal Portfolio",
     description: "terminal style portfolio might impress some geeks ;)",
-    stack: [{name:"Python"}],
+    stack: [{name:"HTML"},{name:"CSS"},{name:"JavaScript"}],
     image:"/assets/work/thumb10.png",
     live:"",
     github:"https://amanraox.github.io/amanraox/",
