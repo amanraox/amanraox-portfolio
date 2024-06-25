@@ -48,11 +48,11 @@ const experience ={
   icon:"/assets/resume/badge.svg",
   title:"My experience",
   description:"Throughout my career has been a journey of continuous learning and adaptation, working on diverse projects across various industries. Below are some of the key positions I've held and the contributions I've made:",
-  items: [
+  items: [  
     {
-      company:"Club of Programmers (SSTC)",
-      position:"Teaching Assistant",
-      duration: "Mar 2023 - Nov 2023",
+      company:"Languify AI",
+      position:"Software Engineer",
+      duration: "July 2024 - September 2024",
     },
     {
       company:"ROAS Expert Inc.",
@@ -60,9 +60,14 @@ const experience ={
       duration: "Mar 2024 - Apr 2024",
     },
     {
-      company:"Languify AI",
-      position:"Software Engineer",
-      duration: "July 2024 - September 2024",
+      company:"Club of Programmers (SSTC)",
+      position:"Teaching Assistant",
+      duration: "Mar 2023 - Nov 2023",
+    },
+    {
+      company:"Freelance",
+      position:"Web Development",
+      duration: "Mar 2022 - Dec 2023",
     },
   ]
 };
