@@ -59,6 +59,11 @@ const experience ={
       position:"Web Developer Intern",
       duration: "Mar 2024 - Apr 2024",
     },
+    {
+      company:"Languify AI",
+      position:"Software Engineer",
+      duration: "July 2024 - September 2024",
+    },
   ]
 };
 
