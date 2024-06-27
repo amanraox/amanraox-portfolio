@@ -19,9 +19,8 @@ const Home = () => {
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80  ">Sometimes I Code<br></br>
           Occasionally I Debug<br></br>
-          Every so often I Tinker<br></br>
-          Always I Learn<br></br>
           Consistently I Innovate<br></br>
+          Every so often I Tinker<br></br>
           Here and Now I have Fun</p> 
           {/* btn and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
