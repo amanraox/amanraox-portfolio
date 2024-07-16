@@ -26,6 +26,25 @@ import { motion } from "framer-motion";
 const Services = () => {
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
+	    <div className="px-7">
+      <div className="flex flex-col md:flex-row md:space-x-4">
+      <div className="flex-1 mb-4 md:mb-0">
+        <img 
+          src="https://leetcard.jacoblin.cool/raoxaman?font=Ubuntu&radius=13&ext=contest&sheets=https://gist.githubusercontent.com/amanraox/cf6cdd10f40353086bcb2de6694a4ce2/raw/786c10c0174e05e10c866f42ba0d47acf391b42a/leetcode_stats_card.css" 
+          alt="SVG 2" 
+          className="w-full h-auto md:h-auto object-contain"
+        />
+      </div>
+      <div className="flex-1">
+        <img 
+          src="https://codeforces-readme-stats.vercel.app/api/card?username=amanloves69&title_color=00ff99&text_color=00ff99&border_color=00ff99&bg_color=121217&icon_color=00ff99" 
+          alt="SVG 1" 
+          className="w-full h-auto md:h-auto object-contain"
+        />
+      </div>
+    </div>
+    <br />
+    </div>
       <div className="container mx-auto">
         <motion.div 
         initial={{opacity:0}} 
@@ -35,10 +54,6 @@ const Services = () => {
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
           >
-            <p align="middle">
-   <a href="https://leetcode.com/u/raoxaman/" target="_blank" rel="noopener noreferrer">
-<img height="315em" src="https://leetcard.jacoblin.cool/raoxaman?font=Ubuntu&radius=13&ext=contest&sheets=https://gist.githubusercontent.com/amanraox/cf6cdd10f40353086bcb2de6694a4ce2/raw/786c10c0174e05e10c866f42ba0d47acf391b42a/leetcode_stats_card.css" /></a>
-	   </p>
           {services.map((service,index)=>{
             return (
               <div key={index} className="flex-1 flex flex-col justify-center gap-6 group"
