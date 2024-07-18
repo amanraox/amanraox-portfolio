@@ -42,7 +42,7 @@ const Services = () => {
       <div className="relative" style={{ paddingBottom: '70%' }}>
       <a href="https://codeforces.com/profile/amanloves69/" target="_blank" rel="noopener noreferrer">
         <img 
-          src="https://codeforces-readme-stats.vercel.app/api/card?username=amanloves69&title_color=00ff99&text_color=00ff99&border_color=00ff99&bg_color=121217&icon_color=00ff99" 
+          src="https://codeforces-readme-stats.vercel.app/api/card?username=amanloves69&title_color=00ff99&text_color=fff&border_color=00ff99&bg_color=121217&icon_color=00ff99" 
           alt="SVG 1" 
           className="absolute inset-0 w-full h-full object-contain"
         /></a>
