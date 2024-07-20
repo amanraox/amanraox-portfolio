@@ -13,15 +13,15 @@ const links =[
   },
   {
     name:'Competitive Programming',
-    path: '/services',
+    path: '/cp',
   },
   {
     name:'resume',
     path: '/resume',
   },
   {
-    name:'work',
-    path: '/work',
+    name:'Projects',
+    path: '/projects',
   },
   {
     name:'contact',
