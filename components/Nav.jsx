@@ -10,11 +10,11 @@ const links = [
     },
     {
         name: "Competitive Programming",
-        path: "/services",
+        path: "/cp",
     },
     {
       name: "Projects",
-      path: "/work",
+      path: "/projects",
   },
     {
         name: "resume",
