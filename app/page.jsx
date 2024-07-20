@@ -18,9 +18,8 @@ const Home = () => {
             Hello I'm<br/><span className="text-accent">Aman Umrao</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80  ">Sometimes I Code<br></br>
-          Occasionally I Debug<br></br>
-          Consistently I Innovate<br></br>
-          Every so often I Tinker<br></br>
+          Occasionally I Travel<br></br>
+          Every so often I Debug<br></br>
           Here and Now I have Fun</p> 
           {/* btn and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
