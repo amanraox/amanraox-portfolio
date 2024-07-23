@@ -6,20 +6,26 @@ const services = [
   {
     num: "01",
   title: "LeetCode",
-  description: "Solved 350+ Problems",
+  description: "400+ Problems 🎖️",
   href: "https://leetcode.com/raoxaman"
   },
   {
     num: "02",
   title: "CodeForces",
-  description: "pupil🟢 [ Max rating 1215 ]",
+  description: "pupil🟢️ [ Max rating 1215 ]",
   href: "https://codeforces.com/profile/amanloves69"
   },
   {
     num: "03",
   title: "CodeChef",
-  description: "3⭐ [ Max rating 1645 ]",
+  description: "3🌟️ [ Max rating 1645 ]",
   href: "https://codechef.com/users/amanraoxx"
+  },
+  {
+    num: "04",
+  title: "Geek for Geeks",
+  description: "Institute Rank 1 🏆️",
+  href: "https://www.geeksforgeeks.org/user/amanraox/"
   },
 ];
 import { motion } from "framer-motion";
