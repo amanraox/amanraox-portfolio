@@ -27,6 +27,18 @@ const services = [
   description: "Institute Rank 1 🏆️",
   href: "https://www.geeksforgeeks.org/user/amanraox/"
   },
+  {
+    num: "05",
+  title: "HackerRank",
+  description: "6🌟️ Problem Solving ",
+  href: "https://www.hackerrank.com/profile/amanraox"
+  },
+  {
+    num: "06",
+  title: "Certificates",
+  description: "Coursera, Microsoft, Meta, ACM ICPC🎗️",
+  href: "https://drive.google.com/drive/folders/1khdPZSNKhP20xODJqIabr9v02UGHgJtT?usp=sharing"
+  },
 ];
 import { motion } from "framer-motion";
 const Services = () => {
