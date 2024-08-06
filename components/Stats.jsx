@@ -8,7 +8,7 @@ const stats=[
     },
     {
         num: 12,
-        text: "Technologies Masted",
+        text: "Technologies Mastered",
     },
     {
         num: 674,
