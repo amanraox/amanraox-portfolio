@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaYoutube, FaQuora, FaWhatsapp } from "react-ic
 const socials=[
   {icon: <FaGithub />,path: "https://github.com/amanraox"},
   {icon: <FaLinkedinIn />,path: "https://linkedin.com/in/amanraox"},
-  {icon: <FaQuora />,path: "https://twitter.com/amanraoxx"},
+  {icon: <FaQuora />,path: "https://www.quora.com/profile/Aman-Umrao-4"},
   {icon: <FaWhatsapp />,path: "https://wa.me/919755857161?text=Hello%20Aman"},
 ]
 const Social = ({containerStyle,iconStyles}) => {
