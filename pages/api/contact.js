@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       const mailOptions = {
         from: contact,
         to: process.env.EMAIL, // Your email address to receive the message
-        subject: `Contact form submission from ${fullname}`,
+        subject: `amanraox Porfolio form submission by ${fullname}`,
         text: `
           Name: ${fullname}
           Contact: ${contact}
