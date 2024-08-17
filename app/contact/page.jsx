@@ -68,7 +68,7 @@ const Contact = () => {
       if (response.ok) {
         setPopupMessage({
           title: "Message Sent!",
-          body: "Your message has been successfully sent!",
+          body: "Your message has successfully pinged my inbox, dodging all the digital traffic. I’ll get back to you soon——no downtime expected!",
         });
         setFormData({ fullname: "", contact: "", reason: "", message: "" });
       } else {
