@@ -1,5 +1,8 @@
 
 ![raox](./preview.jpg)
+## Performance
+![raox](./p1.jpg)
+![raox](./p2.jpg)
 ## Getting Started
 
 First, run the development server:
