@@ -1,11 +1,12 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";                
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
+import Popup from "@/components/Popup"; // Adjust the import path as needed
 
 const info = [
   {
@@ -34,6 +35,8 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupMessage, setPopupMessage] = useState({ title: "", body: "" });
 
   const handleChange = (e) => {
     setFormData({
@@ -63,17 +66,31 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        alert("Message sent successfully!");
+        setPopupMessage({
+          title: "Message Sent!",
+          body: "Your message has been successfully sent!",
+        });
         setFormData({ fullname: "", contact: "", reason: "", message: "" });
       } else {
-        alert("Failed to send the message.");
+        setPopupMessage({
+          title: "Error!",
+          body: "Failed to send the message. Please try again later.",
+        });
       }
     } catch (error) {
       console.error("Error:", error);
-      alert("An error occurred while sending the message.");
+      setPopupMessage({
+        title: "Error!",
+        body: "An error occurred while sending the message.",
+      });
     } finally {
       setLoading(false);
+      setShowPopup(true);
     }
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
   };
 
   return (
@@ -160,6 +177,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+      {showPopup && <Popup message={popupMessage} onClose={handleClosePopup} />}
     </motion.section>
   );
 };
