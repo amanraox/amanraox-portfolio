@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       const mailOptions = {
         from: contact,
         to: process.env.EMAIL,
-        subject: `amanraox Porfolio form submission by ${fullname}`,
+        subject: `Form submission by ${fullname} in amanraox portfolio`,
         text: `
           Name: ${fullname}
           Contact: ${contact}
@@ -34,7 +34,7 @@ export default async function handler(req, res) {
       // Send the email
       await transporter.sendMail(mailOptions);
 
-      return res.status(200).json({ success: 'Message sent successfully!' });
+      return res.status(200).json({ success: 'Your message has successfully pinged my inbox, dodging all the digital traffic. I’ll get back to you soon——no downtime expected!' });
     } catch (error) {
       console.error('Error sending email:', error);
       return res.status(500).json({ error: 'Failed to send message' });
