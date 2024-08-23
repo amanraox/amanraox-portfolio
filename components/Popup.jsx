@@ -13,8 +13,8 @@ const Popup = ({ message, onClose }) => {
         >
           &times;
         </button>
-        <h2 className="text-2xl font-bold mb-4">{message.title}</h2>
-        <p>{message.body}</p>
+        <h2 className="text-2xl text-[#00ff99] font-bold mb-4">{message.title}</h2>
+        <p className="text-[#ffffff]" dangerouslySetInnerHTML={{ __html: message.body }} />
         <button
           className="mt-6 w-full bg-[#00e187] hover:bg-[#00ff99] text-[#121217] py-2 px-4 rounded focus:outline-none transition-colors duration-300"
           onClick={onClose}
