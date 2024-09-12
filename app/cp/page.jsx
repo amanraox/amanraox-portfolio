@@ -7,7 +7,7 @@ const services = [
     num: "01",
   title: "LeetCode",
   description: "400+ Problems 🎖️",
-  href: "https://leetcode.com/raoxaman"
+  href: "https://leetcode.com/amanraox"
   },
   {
     num: "02",
@@ -48,9 +48,9 @@ const Services = () => {
       <div className="flex flex-col md:flex-row md:space-x-4">
       <div className="flex-1 mb-4 md:mb-0">
       <div className="relative" style={{ paddingBottom: '70%' }}>
-      <a href="https://leetcode.com/u/raoxaman/" target="_blank" rel="noopener noreferrer">
+      <a href="https://leetcode.com/u/amanraox/" target="_blank" rel="noopener noreferrer">
         <img 
-          src="https://leetcard.jacoblin.cool/raoxaman?border=1.5&font=Ubuntu&radius=13&ext=contest&sheets=https://gist.githubusercontent.com/amanraox/cf6cdd10f40353086bcb2de6694a4ce2/raw/786c10c0174e05e10c866f42ba0d47acf391b42a/leetcode_stats_card.css" 
+          src="https://leetcard.jacoblin.cool/amanraox?border=1.5&font=Ubuntu&radius=13&ext=contest&sheets=https://gist.githubusercontent.com/amanraox/cf6cdd10f40353086bcb2de6694a4ce2/raw/786c10c0174e05e10c866f42ba0d47acf391b42a/leetcode_stats_card.css" 
           alt="SVG 2" 
           className="absolute inset-0 w-full h-full object-contain"
         /></a>
