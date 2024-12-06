@@ -9,7 +9,7 @@ const links = [
         path: "/",
     },
     {
-        name: "Competitive Programming",
+        name: "Competitive",
         path: "/cp",
     },
     {
