@@ -154,7 +154,7 @@ const Contact = () => {
                 <Input
                   name="fullname"
                   type="text"
-                  placeholder="Fullname"
+                  placeholder="Full Name"
                   value={formData.fullname}
                   onChange={handleChange}
                   required
