@@ -22,7 +22,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Near Dutta Kirana, Adarsh Nagar Phase-II, Devrikhurd, Bilaspur (C.G.)",
+    description: "Mars",
   },
 ];
 
