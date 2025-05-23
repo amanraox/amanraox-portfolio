@@ -22,7 +22,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Mars 41°24'12.2"N 2°10'26.5"E",
+    description: "Mars 41°24'12.2\"N 2°10'26.5\"E",
   },
 ];
 
