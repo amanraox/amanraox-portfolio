@@ -86,14 +86,8 @@ const education ={
     },
     {
       institution:"Loyola School Bsp",
-      degree:"Higher Secondary Education \
-      [ std12 ]",
-      duration: "2018 - 2020",
-    },
-    {
-      institution:"Loyola School Bsp",
-      degree:"Secondary Education  _[std10]_",
-      duration: "2017 - 2018",
+      degree:"Higher Secondary Education",
+      duration: "2017 - 2020",
     },
   ]
 };
